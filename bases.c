@@ -1,5 +1,7 @@
 #include <stdio.h>
-// Programa para tranformar um número decimal em binário e hexadecimal
+// Program to transform a decimal number into a binary and a hexadecimal number
+
+//From decimal to hexadecimal
 void hexadecimal(int n){
     int r;
     if(n<=15){
@@ -55,7 +57,7 @@ void hexadecimal(int n){
             }
     }
 }
-//Base 10 pra Binário
+//From decimal to binary
 void binario(n){
     int r;
     if(n == 0){
@@ -69,7 +71,7 @@ void binario(n){
 }
 int main (){
     int n, r;
-    printf("Digite um numero decimal: ");
+    printf("Write a decimal number: ");
     scanf("%d", &n);
     hexadecimal(n);
     printf("\n");
